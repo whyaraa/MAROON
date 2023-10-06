@@ -42,9 +42,15 @@ body {
 
 .container {
     max-width: 1366px;
-    height: 1760px;
     margin: 0 auto;
     background: #F8F8F6;
+    position: relative;
+    overflow: hidden;
+}
+.containerrr {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: #F4F1ED;
     position: relative;
     overflow: hidden;
 }
@@ -124,27 +130,22 @@ li {
   }
 
 .section {
-    height: 650px;
+    /* height: 650px; */
     margin-top: 40px;
-    margin-left: 98px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.img {
+    height: 647px;
 }
 
 .rose {
-    display: flex;
-    width: 75px;
-    height: 23px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
     color: #122947;
-    font-family: Raleway;
     font-size: 32px;
-    font-style: normal;
     font-weight: 500;
     line-height: 125%;
-    /* 40px */
     margin-top: 89px;
     margin-left: 70px;
 }
@@ -725,9 +726,75 @@ margin-left: 759px;
     background: #F4F1ED;
 }
 
-.mejet_ponravitsya {
+.section2 {
+    text-align: center;
+}
+
+.siuu {
     color: #122947;
     font-size: 32px;
     font-weight: 500;
     line-height: 125%;
+    margin-top: 120px;
+}
+
+
+.containerr {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    height: 195px;
+    flex-shrink: 0;
+    background: #F4F1ED;
+    }
+.menu2 {
+    height: 141px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    }
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.social1 {
+    right: 0;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    }
+
+.footer__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__box li {
+    color: #122947;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
+.lineee {
+    width: 100x;
+    height: 1px;
+    background: #D1D1D1;
+}
+  
+.boxx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+  
+.pp {
+    color: #959595;
+    font-size: 12px;
+    font-weight: 400;
 }
